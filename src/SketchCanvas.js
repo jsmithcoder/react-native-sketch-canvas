@@ -67,7 +67,7 @@ class SketchCanvas extends React.Component {
     onSketchSaved: () => { },
     user: null,
 	startToDrawDelay: 0,
-	requiredTouches: 2,
+	requiredTouches: 1,
 
     touchEnabled: true,
 
