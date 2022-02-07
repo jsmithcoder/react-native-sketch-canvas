@@ -33,8 +33,8 @@ class SketchCanvas extends React.Component {
     onStrokeEnd: PropTypes.func,
     onSketchSaved: PropTypes.func,
     user: PropTypes.string,
-	requiredTouches: PropTypes.number,
-	startToDrawDelay: PropTypes.number,
+    requiredTouches: PropTypes.number,
+    startToDrawDelay: PropTypes.number,
 
     touchEnabled: PropTypes.bool,
 
@@ -67,7 +67,7 @@ class SketchCanvas extends React.Component {
     onSketchSaved: () => { },
     user: null,
 	startToDrawDelay: 0,
-	requiredTouches: null,
+	requiredTouches: 2,
 
     touchEnabled: true,
 
